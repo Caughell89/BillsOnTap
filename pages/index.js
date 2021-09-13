@@ -13,20 +13,36 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Bills on Tap!</h1>
-        <div>
-          <iframe
-            src="https://open.spotify.com/embed/show/0mjPuqXiycfAilmzOOsowP"
-            width="100%"
-            height="232"
-            frameBorder="0"
-            allowtransparency="true"
-            allow="encrypted-media"
-          ></iframe>
+        <div className={styles.episode}>
+          <h3>Episode 2</h3>
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed/show/0mjPuqXiycfAilmzOOsowP"
+              width="100%"
+              height="232"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+        <div className={styles.episode}>
+          <h3>Episode 1</h3>
+          <div>
+            <iframe
+              src="https://open.spotify.com/embed/episode/1kLxp5ts60J3F5ynmf4RBx"
+              width="100%"
+              height="232"
+              frameBorder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a href="http://www.espn.com">Powered by Deeds</a>
+        <a href="http://www.espn.com">Powered by Deeds Media Inc.</a>
       </footer>
     </div>
   );
