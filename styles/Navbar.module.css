@@ -1,0 +1,29 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  color: #00338d;
+  -webkit-box-shadow: 0 4px 6px -6px #00338d;
+  -moz-box-shadow: 0 4px 6px -6px #00338d;
+  box-shadow: 0 4px 6px -6px #00338d;
+}
+
+.nav a:hover {
+  color: #c60c30;
+  text-decoration: underline;
+}
+
+.nav div {
+  display: flex;
+  padding: 1.4rem 0.2rem;
+  margin-right: 2rem;
+}
+
+.nav img {
+  height: 4rem;
+  width: 4rem;
+  margin-right: 2rem;
+}
