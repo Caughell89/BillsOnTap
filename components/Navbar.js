@@ -28,16 +28,24 @@ const Navbar = () => {
           </a>
         </Link>
         <div className={styles.webLinks}>
-          <Link href="/podcasts">Podcasts</Link>
+          <Link href="/podcasts">
+            <a>Podcasts</a>
+          </Link>
         </div>
         <div className={styles.webLinks}>
-          <Link href="/">Schedule</Link>
+          <Link href="/">
+            <a>Schedule</a>
+          </Link>
         </div>
         <div className={styles.webLinks}>
-          <Link href="/">About Us</Link>
+          <Link href="/">
+            <a>About Us</a>
+          </Link>
         </div>
         <div className={styles.webLinks}>
-          <Link href="/">Contact Us</Link>
+          <Link href="/">
+            <a>Contact Us</a>
+          </Link>
         </div>
         <div className={styles.navToggler} onClick={showDrawer}>
           <MenuOutlined />
