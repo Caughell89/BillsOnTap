@@ -1,3 +1,37 @@
+@media (min-width: 319px) {
+  .nav {
+    justify-content: space-between;
+  }
+  .navToggler {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .webLinks {
+    display: none;
+  }
+
+  .nav a {
+    color: #00338d;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .nav {
+    justify-content: flex-start;
+  }
+  .navToggler {
+    display: none;
+  }
+
+  .webLinks {
+    display: flex;
+    padding: 1.4rem 0.2rem;
+    margin-right: 2rem;
+  }
+}
+
 .nav {
   width: 100%;
   display: flex;
@@ -14,12 +48,6 @@
 .nav a:hover {
   color: #c60c30;
   text-decoration: underline;
-}
-
-.nav div {
-  display: flex;
-  padding: 1.4rem 0.2rem;
-  margin-right: 2rem;
 }
 
 .nav img {

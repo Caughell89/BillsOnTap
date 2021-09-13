@@ -1,28 +1,60 @@
-import styles from "../styles/Navbar.module.css";
 import Link from "next/link";
+import React, { useState } from "react";
+import "antd/dist/antd.css";
+import styles from "../styles/Navbar.module.css";
+
+import { Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 
 const Navbar = () => {
+  const [visible, setVisible] = useState(false);
+
+  const showDrawer = () => {
+    setVisible(true);
+  };
+
+  const onClose = () => {
+    setVisible(false);
+  };
   return (
-    <nav className={styles.nav}>
-      <Link href="/">
-        <img
-          src="https://pbs.twimg.com/profile_images/1343955041233862663/j8tk9I-I_400x400.jpg"
-          alt="logo"
-        />
-      </Link>
-      <div>
-        <Link href="/hello">Podcasts</Link>
-      </div>
-      <div>
-        <Link href="/">Schedule</Link>
-      </div>
-      <div>
-        <Link href="/">About Us</Link>
-      </div>
-      <div>
-        <Link href="/">Contact Us</Link>
-      </div>
-    </nav>
+    <>
+      <nav className={styles.nav}>
+        <Link href="/">
+          <a>
+            <img
+              src="https://pbs.twimg.com/profile_images/1343955041233862663/j8tk9I-I_400x400.jpg"
+              alt="logo"
+            />
+          </a>
+        </Link>
+        <div className={styles.webLinks}>
+          <Link href="/podcasts">Podcasts</Link>
+        </div>
+        <div className={styles.webLinks}>
+          <Link href="/">Schedule</Link>
+        </div>
+        <div className={styles.webLinks}>
+          <Link href="/">About Us</Link>
+        </div>
+        <div className={styles.webLinks}>
+          <Link href="/">Contact Us</Link>
+        </div>
+        <div className={styles.navToggler} onClick={showDrawer}>
+          <MenuOutlined />
+        </div>
+      </nav>
+      <Drawer
+        title="Bills on Tap Menu"
+        placement="right"
+        onClose={onClose}
+        visible={visible}
+      >
+        <p>Podcasts</p>
+        <p>Schedule</p>
+        <p>About us</p>
+        <p>Contact us</p>
+      </Drawer>
+    </>
   );
 };
 
