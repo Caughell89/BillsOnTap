@@ -16,7 +16,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        Powered by <a href="http://www.espn.com">Deeds</a>
+        <a href="http://www.espn.com">Powered by Deeds</a>
       </footer>
     </div>
   );
