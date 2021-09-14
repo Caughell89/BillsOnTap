@@ -33,7 +33,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.webLinks}>
-          <Link href="/">
+          <Link href="/schedule">
             <a>Schedule</a>
           </Link>
         </div>
