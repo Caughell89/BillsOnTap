@@ -5,6 +5,8 @@
   .navToggler {
     display: flex;
     cursor: pointer;
+    padding: 1rem;
+    background-color: red;
   }
 
   .webLinks {
