@@ -1,0 +1,28 @@
+.gameHeaders {
+  color: #484848;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gameHeaders img {
+  height: 1.6rem;
+  width: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.holder {
+  color: white;
+}
+
+.win {
+  font-weight: bold;
+  color: #00338d;
+}
+
+.loss {
+  font-weight: bold;
+  color: #c60c30;
+}

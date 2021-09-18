@@ -38,7 +38,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={styles.webLinks}>
-          <Link href="/">
+          <Link href="/about_us">
             <a>About Us</a>
           </Link>
         </div>
@@ -59,7 +59,12 @@ const Navbar = () => {
       >
         <p>Podcasts</p>
         <p>Schedule</p>
-        <p>About us</p>
+        <Link href="/about_us">
+          <a>
+            <p>About us</p>
+          </a>
+        </Link>
+
         <p>Contact us</p>
       </Drawer>
     </>

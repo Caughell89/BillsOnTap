@@ -17,6 +17,19 @@ export default function Home() {
         <main className={styles.main}>
           <h1 className={styles.title}>Welcome to Bills on Tap!</h1>
           <div className={styles.episode}>
+            <h3>Episode 3</h3>
+            <div>
+              <iframe
+                src="https://open.spotify.com/embed/episode/7IY2t3Y8xdtYTWRLn5Oq8C"
+                width="100%"
+                height="232"
+                frameBorder="0"
+                allowtransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+          <div className={styles.episode}>
             <h3>Episode 2</h3>
             <div>
               <iframe
