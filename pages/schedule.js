@@ -187,7 +187,7 @@ export default function Schedule() {
                   <div>
                     <span className={style.loss}>L </span>
                     <img
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png"
+                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.pngs"
                       alt="team logo"
                     />{" "}
                     35-28
