@@ -183,7 +183,7 @@ export default function Schedule() {
                 </div>
 
                 <div>
-                  <div className={style.bold}>RICKY'S BOY</div>
+                  <div className={style.bold}>RICKYS BOY</div>
                   <div>
                     <span className={style.loss}>L </span>
                     <img
