@@ -69,7 +69,7 @@ export default function Schedule() {
                   <div>
                     vs{" "}
                     <img
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/pit.png&w=40&h=40"
+                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/pit.png"
                       alt="team logo"
                     />{" "}
                     Pittsburg
@@ -77,7 +77,7 @@ export default function Schedule() {
                   <div>
                     @{" "}
                     <img
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/mia.png&w=40&h=40"
+                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/mia.png"
                       alt="team logo"
                     />{" "}
                     Miami
@@ -149,7 +149,7 @@ export default function Schedule() {
                     <span className={style.loss}>
                       L{" "}
                       <img
-                        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png&w=40&h=40"
+                        src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png"
                         alt="team logo"
                       />{" "}
                     </span>{" "}
@@ -159,7 +159,7 @@ export default function Schedule() {
                     {" "}
                     <span className={style.holder}>L </span>
                     <img
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png&w=40&h=40"
+                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png"
                       alt="team logo"
                     />{" "}
                     34-26
@@ -187,7 +187,7 @@ export default function Schedule() {
                   <div>
                     <span className={style.loss}>L </span>
                     <img
-                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png&w=40&h=40"
+                      src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/nfl/500/buf.png"
                       alt="team logo"
                     />{" "}
                     35-28
